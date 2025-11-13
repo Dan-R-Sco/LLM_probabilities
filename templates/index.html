@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM Word Probability</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>LLM Word Probability</h1>
+        <p>Enter a prompt and see the word probabilities of the generated response.</p>
+        <textarea id="prompt-input" placeholder="Enter your prompt here..."></textarea>
+        <button id="generate-btn">Generate</button>
+        <div id="loading" class="hidden">Generating...</div>
+        <div id="response-container">
+            <h2>Response</h2>
+            <div id="response-output"></div>
+        </div>
+        <div id="tooltip" class="hidden"></div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
