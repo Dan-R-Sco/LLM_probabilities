@@ -2,7 +2,7 @@
 
 Interactive web application that visualizes token-level probabilities from Google's Gemini 2.0 model via Vertex AI. Users enter a prompt and receive AI-generated text where each token is hoverable to reveal its probability and top-5 alternative tokens.
 
-![Demo](msedge_2SS.gif)
+![Demo](msedge_2SMI8JNgAj.gif)
 
 ## Features
 
@@ -154,4 +154,5 @@ uv pip sync requirements.txt --trusted-host pypi.org --trusted-host files.python
 ## License
 
 This project is for educational and demonstration purposes.
+
 
