@@ -1,0 +1,17 @@
+[project]
+name = "llm-word-prob"
+version = "0.1.0"
+description = "A simple program to visualize word probabilities from a generative AI model."
+authors = [{ name = "Gemini", email = "gemini@google.com" }]
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "google-generativeai",
+    "google-cloud-aiplatform",
+    "Jinja2"
+
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
